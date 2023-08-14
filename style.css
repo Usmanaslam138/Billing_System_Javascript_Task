@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container h1 {
+  font-size: 30px;
+  color: orange;
+  padding: 20px;
+}
+.container h2 {
+  font-size: 24px;
+  color: tomato;
+  padding: 20px;
+}
+table,
+th,
+td {
+  border: 2px solid orange;
+  text-align: center;
+}
+.table {
+  border-collapse: collapse;
+  width: 80%;
+}
