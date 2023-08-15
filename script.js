@@ -11,7 +11,10 @@ let h1 = document.querySelector('.head')
 h1.innerHTML = 'Billing System'
 
 let h2 = document.querySelector('.head2')
-h2.innerHTML = `Dear consumer you consume ${consumerUnits} units. According to that your price per unit is ${totalPerUnitCost} Rs and your total amount is ${totalAmount} Rs`
+h2.innerHTML = `Dear consumer you consume ${consumerUnits} units.<br> According to that your price per unit is ${totalPerUnitCost} Rs and your total amount is ${totalAmount} Rs`
+
+
+
 
 
 
